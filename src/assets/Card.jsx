@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+import './Card.css';
 
 
 function Card({ name, image }) {
@@ -12,3 +14,5 @@ function Card({ name, image }) {
 
     return <img className="Card" style={{ transform }} src={image} alt={name} />;
 }
+
+export default Card;
