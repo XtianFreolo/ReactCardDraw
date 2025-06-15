@@ -1,5 +1,5 @@
 import React from 'react';
-import Deck from './components/Deck.jsx';
+import Deck from './components/Deck';
 
 function App() {
   return (
